@@ -8,6 +8,9 @@ An application that can write, save and delete notes.
 
 * [GitHub Repo](https://github.com/SeeMoreGold/Note-Taker)
 
+## Screenshot
+* [Gif of app](./public/assets/img/Note-Taker.gif)
+
 
 ## Table of Contents
 
@@ -25,17 +28,23 @@ An application that can write, save and delete notes.
 
 ## Installation
 
-Run the following command to install dependencies:
+Open the terminal and run the following command to install dependencies:
 
 npm install 
 
 ## Usage
 
-Run the application in the terminal by navigating to the root folder and typing the command: node server.js.
+Run the application in the terminal by navigating to the root folder and typing the command: 
+
+node server.js
+
+Open the browser and navigate to:
+
+localhost:8000
 
 ## License
       
-      This project licensed under the MIT license.
+This project licensed under the MIT license.
 
 ## Credits
 

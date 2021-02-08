@@ -11,14 +11,15 @@ const express = require("express");
 const app = express();
 
 // Sets an initial port. We"ll use this later in our listener
-let port = process.env.PORT;
-if (port == null || port == "") {
+let port = process.env.PORT || 8000;
+/*if (port == null || port == "") {
   port = 8000;
-}
+}*/
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static("public"));
 
 // ROUTES
 
